@@ -1,0 +1,65 @@
+name: CosmoLex FinOps
+description: Financial operations guidance for managing CosmoLex API and platform costs, including usage-based charges and cost optimization strategies for law firms.
+url: https://www.cosmolex.com/pricing/
+
+cost_drivers:
+  - name: Per-user seat licensing
+    description: >
+      CosmoLex is priced per user per month. Each additional attorney, paralegal,
+      or staff member added to the firm account increases the monthly bill.
+    optimization: Audit active users regularly; deactivate inactive accounts to
+      avoid paying for unused seats.
+
+  - name: API call consumption
+    description: >
+      The Subscription Agreement caps API calls at 1,000 per user license per month.
+      Integration-heavy workflows that trigger many API calls can exhaust this quota
+      and risk suspension of API access.
+    optimization: >
+      Batch API requests where possible. Cache API responses locally to avoid
+      redundant calls. Monitor integration tool logs (e.g., Zapier) to count
+      monthly API calls per user license and stay under the 1,000-call limit.
+
+  - name: Email volume
+    description: >
+      Each user license includes 2,500 outbound emails per month. High-volume
+      automated email workflows (client communications, invoice delivery) can
+      incur overage charges at $0.02 per email.
+    optimization: >
+      Batch invoice emails and avoid redundant automated notifications. Review
+      automation rules that send emails on every event.
+
+  - name: E-signature requests
+    description: >
+      Each e-signature request via Groupdocs Signature or HelloSign integration
+      costs $1.00. High-volume document signing (leases, engagement letters)
+      adds up quickly.
+    optimization: >
+      Bundle multiple signature fields into a single document rather than
+      sending separate signature requests. Evaluate whether a dedicated
+      e-signature subscription is more cost-effective for high-volume firms.
+
+  - name: CRM add-on user cap
+    description: >
+      The CosmoLex CRM add-on starts at $147/month (billed annually) for up to
+      3 users. Adding more users increases cost significantly.
+    optimization: >
+      Limit CRM access to business development staff only; paralegals and
+      billing-only staff typically do not need CRM access.
+
+  - name: Tracking and SMS usage
+    description: >
+      Call tracking ($0.03/min local, $0.05/min toll-free), SMS ($0.03 each),
+      and MMS ($0.04 each) are metered usage charges with no included monthly
+      allocation documented.
+    optimization: >
+      Use tracking lines only for new client intake calls that require attribution.
+      Prefer email for routine client communications to minimize per-message costs.
+
+recommendations:
+  - Review the CosmoLex Subscription Agreement annually for any pricing changes
+    to usage-based charges, which CosmoLex may modify at any time without notice.
+  - Consider Zapier integration budgets separately; Zapier has its own task-based
+    pricing that compounds with CosmoLex API call quotas.
+  - Negotiate per-user pricing for larger firm deployments (10+ users) directly
+    with CosmoLex sales.

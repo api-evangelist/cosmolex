@@ -1,0 +1,87 @@
+name: CosmoLex Plans and Pricing
+description: Pricing plans and tiers for CosmoLex cloud-based legal practice management software.
+url: https://www.cosmolex.com/pricing/
+plans:
+  - name: Standard
+    description: Base legal practice management plan with matter management, billing, trust accounting, document management, and mobile app access.
+    features:
+      - Conflict checking and calendaring
+      - Task management
+      - Document management and mobile app
+      - Time and billing
+      - Trust accounting and bank feeds
+      - Online payments and client portal
+      - QuickBooks Online integration
+      - Phone, email, and chat support
+      - Dedicated account manager
+    trial:
+      available: true
+      days: 10
+      credit_card_required: false
+
+  - name: Elite
+    description: Enhanced plan adding workflow automation, matter budgets, and advanced reporting on top of Standard.
+    features:
+      - All Standard features
+      - Matter status board
+      - Automated workflows
+      - Dependent task and event logic
+      - Matter budgets
+      - Customized data views
+      - QuickBooks Online integration
+      - Phone, email, and chat support
+      - Dedicated account manager
+    trial:
+      available: true
+      days: 10
+      credit_card_required: false
+
+  - name: Elite + Website
+    description: Elite plan bundled with the integrated CosmoLex website builder for law firm online presence.
+    features:
+      - All Elite features
+      - CosmoLex Website integrated site builder
+
+add_ons:
+  - name: CosmoLex CRM
+    description: Client relationship management add-on for law firms.
+    price: 147
+    currency: USD
+    billing: monthly (billed annually)
+    users_included: 3
+
+  - name: CosmoLex Websites
+    description: Standalone integrated website builder for law firms.
+    price: 149
+    currency: USD
+    billing: monthly (billed annually)
+
+  - name: CosmoLexPay
+    description: Integrated payment processor for law firm invoices and trust payments.
+    pricing_note: Pricing not publicly listed; contact sales.
+
+usage_charges:
+  - name: Email overage
+    description: Per email beyond the 2,500/user/month included quota.
+    price: 0.02
+    unit: per email per user license
+
+  - name: Tracking lines - local
+    price: 0.03
+    unit: per minute
+
+  - name: Tracking lines - toll-free
+    price: 0.05
+    unit: per minute
+
+  - name: SMS messages
+    price: 0.03
+    unit: per message
+
+  - name: MMS messages
+    price: 0.04
+    unit: per message
+
+  - name: E-Signature API (Groupdocs / HelloSign)
+    price: 1.00
+    unit: per signature request

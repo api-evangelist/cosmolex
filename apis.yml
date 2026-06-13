@@ -1,0 +1,84 @@
+aid: cosmolex
+name: CosmoLex
+description: >
+  CosmoLex is a cloud-based legal practice management platform that combines
+  matter management, time tracking, billing, trust accounting, and client
+  engagement in a single system. It provides a web services API for integrating
+  matters, time entries, billing, trust accounting, and compliance workflows,
+  subject to a per-user-license monthly call quota. CosmoLex serves solo
+  practitioners and law firms up to 100 users and is designed to satisfy state
+  bar trust accounting compliance requirements.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+type: Index
+tags:
+  - Legal
+  - Law Practice Management
+  - Matter Management
+  - Billing
+  - Trust Accounting
+  - Time Tracking
+  - Legal Compliance
+  - Legal Software
+
+apis:
+  - aid: cosmolex:cosmolex-api
+    name: CosmoLex API
+    description: >
+      Web services API for CosmoLex legal practice management. Enables
+      programmatic access to matters, time entries, billing, trust accounting,
+      documents, and client data. Access is subject to a maximum of 1,000 API
+      calls per user license per month as defined in the Subscription Agreement.
+      No public developer portal is published; integrators should contact
+      CosmoLex for partner API access.
+    humanURL: https://www.cosmolex.com/integrations/
+    baseURL: https://law.cosmolex.com
+    tags:
+      - Matters
+      - Time Entries
+      - Billing
+      - Trust Accounting
+      - Documents
+      - Legal
+    properties:
+      - type: Documentation
+        url: https://support.cosmolex.com/knowledge-base/app-integrations/
+      - type: Integrations
+        url: https://www.cosmolex.com/integrations/
+      - type: SubscriptionAgreement
+        url: https://www.cosmolex.com/subscription-agreement/
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/plans/cosmolex-plans-pricing.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/rate-limits/cosmolex-rate-limits.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/finops/cosmolex-finops.yml
+
+common:
+  - type: Plans
+    url: https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/plans/cosmolex-plans-pricing.yml
+  - type: RateLimits
+    url: https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/rate-limits/cosmolex-rate-limits.yml
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/finops/cosmolex-finops.yml
+  - type: Website
+    url: https://www.cosmolex.com/
+  - type: Pricing
+    url: https://www.cosmolex.com/pricing/
+  - type: Blog
+    url: https://www.cosmolex.com/blog/
+  - type: Support
+    url: https://support.cosmolex.com/
+  - type: Login
+    url: https://law.cosmolex.com/login/
+  - type: TermsOfService
+    url: https://www.cosmolex.com/subscription-agreement/
+  - type: PrivacyPolicy
+    url: https://www.cosmolex.com/privacy-policy/
+
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

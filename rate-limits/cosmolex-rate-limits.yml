@@ -1,0 +1,40 @@
+name: CosmoLex API Rate Limits
+description: Rate limiting and usage quotas for the CosmoLex web services API.
+url: https://www.cosmolex.com/subscription-agreement/
+notes: >
+  CosmoLex does not publish a fully public developer portal. API access is subject
+  to the terms defined in the CosmoLex Subscription Agreement. Integrators should
+  contact CosmoLex support for partner API access details.
+
+limits:
+  - name: Monthly API call quota
+    description: Maximum number of web services API calls allowed per user license per billing month.
+    limit: 1000
+    unit: API calls
+    period: monthly
+    per: user license
+    source: https://www.cosmolex.com/subscription-agreement/
+
+  - name: File upload size
+    description: Maximum size for individual file uploads via the service.
+    limit: 32
+    unit: MB
+    period: per upload
+    notes: Larger sizes may be available for certain file types upon inquiry.
+
+  - name: Monthly email quota
+    description: Maximum number of emails that can be sent from the service per user license per month.
+    limit: 2500
+    unit: emails
+    period: monthly
+    per: user license
+
+enforcement:
+  suspension: >
+    CosmoLex reserves the right to suspend or terminate API access if excessive
+    usage diminishes overall service performance for other customers.
+  rate_limit_headers: not documented
+  overage_policy: >
+    Email overages are charged at $0.02 per email per user license beyond the
+    monthly quota. API call overages may result in suspension rather than
+    additional charges.
