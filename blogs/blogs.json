@@ -1,0 +1,98 @@
+{
+  "aid": "cosmolex",
+  "name": "CosmoLex Blog",
+  "url": "https://www.cosmolex.com/blog/",
+  "lastFetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "Three-Way Reconciliation: A Monthly Checklist for Canadian Firms",
+      "url": "https://www.cosmolex.com/blog/three-way-reconciliation-monthly-checklist-canadian-law-firms/",
+      "description": "Addresses trust ledger audit risks by implementing systematic reconciliation practices for Canadian law firms.",
+      "tags": ["trust accounting", "reconciliation", "Canada", "compliance"]
+    },
+    {
+      "title": "QuickBooks for Law Firms: Why a Single Platform Saves More Time and Money",
+      "url": "https://www.cosmolex.com/blog/quickbooks-for-law-firms-why-a-single-platform-saves-more-time-and-money/",
+      "description": "Explores inefficiencies when managing accounting separately and benefits of integrated platforms.",
+      "tags": ["QuickBooks", "accounting", "integration", "billing"]
+    },
+    {
+      "title": "Form 9A In Plain English: When You Need It and How to Do It Right",
+      "url": "https://www.cosmolex.com/blog/form-9a-plain-english-guide-for-canadian-law-firms/",
+      "description": "Focuses on building trust accounting habits to maintain audit-ready records for Law Society reporting.",
+      "tags": ["trust accounting", "compliance", "Canada", "Law Society"]
+    },
+    {
+      "title": "Read the Fine Print: Avoiding Vendor Lock-In Before You Sign",
+      "url": "https://www.cosmolex.com/blog/avoid-legal-software-vendor-lock-in-before-you-sign/",
+      "description": "Addresses contract limitations and data portability concerns when selecting practice management software.",
+      "tags": ["vendor lock-in", "data portability", "legal software", "contracts"]
+    },
+    {
+      "title": "Does CosmoLex Integrate with QuickBooks?",
+      "url": "https://www.cosmolex.com/blog/does-cosmolex-integrate-with-quickbooks/",
+      "description": "Discusses resolving dormant trust balances and investigating unresolved funds.",
+      "tags": ["QuickBooks", "integration", "trust accounting"]
+    },
+    {
+      "title": "Never Lose a Minute Again: Bulletproof Time Capture on Mobile",
+      "url": "https://www.cosmolex.com/blog/bulletproof-mobile-time-tracking-for-law-firms/",
+      "description": "Covers mobile time tracking implementation to prevent hours loss.",
+      "tags": ["time tracking", "mobile", "billing", "productivity"]
+    },
+    {
+      "title": "Dormant Trust Balances: Close Them Without Causing Compliance Headaches",
+      "url": "https://www.cosmolex.com/blog/dormant-trust-balances-canadian-law-firms/",
+      "description": "Outlines a three-step process for investigating and resolving dormant trust fund issues.",
+      "tags": ["trust accounting", "compliance", "Canada", "dormant balances"]
+    },
+    {
+      "title": "When Your PM Freezes: A Lightweight Performance Playbook",
+      "url": "https://www.cosmolex.com/blog/law-firm-practice-management-performance-playbook/",
+      "description": "Provides diagnostic strategies for resolving practice management software performance issues.",
+      "tags": ["practice management", "performance", "troubleshooting"]
+    },
+    {
+      "title": "Stop The 20-File Shuffle: Smarter Bulk Uploads and Office 365 Tips",
+      "url": "https://www.cosmolex.com/blog/law-firm-bulk-uploads-and-office-365-tips/",
+      "description": "Details deadline management systems using litigation calendaring to prevent missed filing dates.",
+      "tags": ["documents", "Office 365", "calendaring", "litigation"]
+    },
+    {
+      "title": "How to Manage Retainers and Trust Accounts in a Divorce Case",
+      "url": "https://www.cosmolex.com/blog/how-to-manage-retainers-and-trust-accounts-in-a-divorce-case/",
+      "description": "Addresses trust account management in complex, emotionally charged family law matters.",
+      "tags": ["trust accounting", "retainers", "family law", "billing"]
+    },
+    {
+      "title": "How to Manage Multiple Concurrent Real Estate Closings Without Losing Track",
+      "url": "https://www.cosmolex.com/blog/how-to-manage-multiple-concurrent-real-estate-closings-without-losing-track/",
+      "description": "Centralizes matter management strategies for high-volume real estate practices.",
+      "tags": ["real estate", "matter management", "closings", "practice management"]
+    },
+    {
+      "title": "How to Track Discovery Costs and Expert Witness Fees Inside Your Practice Management Software",
+      "url": "https://www.cosmolex.com/blog/how-to-track-discovery-costs-and-expert-witness-fees-inside-your-practice-management-software/",
+      "description": "Emphasizes real-time expense tracking to ensure full cost recovery in litigation.",
+      "tags": ["litigation", "expenses", "billing", "discovery"]
+    },
+    {
+      "title": "Protecting Closing Funds from Wire Fraud: What Real Estate Attorneys Need to Know",
+      "url": "https://www.cosmolex.com/blog/protecting-closing-funds-from-wire-fraud-what-real-estate-attorneys-need-to-know/",
+      "description": "Addresses wire fraud risks and closing workflow security measures.",
+      "tags": ["real estate", "security", "wire fraud", "trust accounting"]
+    },
+    {
+      "title": "Recovering Lost Billable Hours: A Time Tracking Guide for Litigation Attorneys",
+      "url": "https://www.cosmolex.com/blog/recovering-lost-billable-hours-a-time-tracking-guide-for-litigation-attorneys/",
+      "description": "Details capturing small time increments using real-time litigation timers.",
+      "tags": ["time tracking", "billing", "litigation", "productivity"]
+    },
+    {
+      "title": "Multi-Office Billing: How to Set Up Locations the Right Way",
+      "url": "https://www.cosmolex.com/blog/multi-office-billing-and-location-setup-for-law-firms/",
+      "description": "Explains structured approaches for managing multiple office billing accurately.",
+      "tags": ["billing", "multi-office", "practice management", "setup"]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "cosmolex": "https://www.cosmolex.com/vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "LegalPracticeManagement": "cosmolex:LegalPracticeManagement",
+    "MatterManagement": "cosmolex:MatterManagement",
+    "TrustAccounting": "cosmolex:TrustAccounting",
+    "TimeEntry": "cosmolex:TimeEntry",
+    "BillingInvoice": "cosmolex:BillingInvoice",
+    "ClientEngagement": "cosmolex:ClientEngagement",
+
+    "matter": {
+      "@id": "cosmolex:matter",
+      "@type": "cosmolex:MatterManagement"
+    },
+    "timeEntry": {
+      "@id": "cosmolex:timeEntry",
+      "@type": "cosmolex:TimeEntry"
+    },
+    "trustAccount": {
+      "@id": "cosmolex:trustAccount",
+      "@type": "cosmolex:TrustAccounting"
+    },
+    "invoice": {
+      "@id": "cosmolex:invoice",
+      "@type": "cosmolex:BillingInvoice"
+    },
+    "retainer": {
+      "@id": "cosmolex:retainer",
+      "@type": "cosmolex:TrustAccounting"
+    },
+    "document": {
+      "@id": "cosmolex:document",
+      "@type": "schema:DigitalDocument"
+    },
+
+    "matterId": {
+      "@id": "cosmolex:matterId",
+      "@type": "xsd:string"
+    },
+    "matterNumber": {
+      "@id": "cosmolex:matterNumber",
+      "@type": "xsd:string"
+    },
+    "matterStatus": {
+      "@id": "cosmolex:matterStatus",
+      "@type": "xsd:string"
+    },
+    "practiceArea": {
+      "@id": "cosmolex:practiceArea",
+      "@type": "xsd:string"
+    },
+    "billingType": {
+      "@id": "cosmolex:billingType",
+      "@type": "xsd:string"
+    },
+    "hourlyRate": {
+      "@id": "cosmolex:hourlyRate",
+      "@type": "xsd:decimal"
+    },
+    "timekeeper": {
+      "@id": "cosmolex:timekeeper",
+      "@type": "schema:Person"
+    },
+    "duration": {
+      "@id": "cosmolex:duration",
+      "@type": "xsd:decimal"
+    },
+    "billable": {
+      "@id": "cosmolex:billable",
+      "@type": "xsd:boolean"
+    },
+    "trustBalance": {
+      "@id": "cosmolex:trustBalance",
+      "@type": "xsd:decimal"
+    },
+    "trustDeposit": {
+      "@id": "cosmolex:trustDeposit",
+      "@type": "xsd:decimal"
+    },
+    "trustWithdrawal": {
+      "@id": "cosmolex:trustWithdrawal",
+      "@type": "xsd:decimal"
+    },
+    "complianceJurisdiction": {
+      "@id": "cosmolex:complianceJurisdiction",
+      "@type": "xsd:string"
+    },
+    "invoiceTotal": {
+      "@id": "cosmolex:invoiceTotal",
+      "@type": "xsd:decimal"
+    },
+    "invoiceStatus": {
+      "@id": "cosmolex:invoiceStatus",
+      "@type": "xsd:string"
+    },
+    "client": {
+      "@id": "cosmolex:client",
+      "@type": "schema:Organization"
+    },
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "email": "schema:email",
+    "telephone": "schema:telephone",
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "currency": {
+      "@id": "schema:currency",
+      "@type": "xsd:string"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "https://www.cosmolex.com/",
+      "@type": "schema:SoftwareApplication",
+      "name": "CosmoLex",
+      "description": "Cloud-based legal practice management platform combining matter management, time tracking, billing, trust accounting, and client engagement in a single system.",
+      "url": "https://www.cosmolex.com/",
+      "schema:applicationCategory": "Legal Practice Management Software",
+      "schema:operatingSystem": "Web",
+      "schema:offers": {
+        "@type": "schema:Offer",
+        "schema:url": "https://www.cosmolex.com/pricing/"
+      },
+      "schema:provider": {
+        "@type": "schema:Organization",
+        "name": "CosmoLex",
+        "url": "https://www.cosmolex.com/",
+        "schema:contactPoint": {
+          "@type": "schema:ContactPoint",
+          "schema:telephone": "+1-866-878-6798",
+          "schema:contactType": "customer support",
+          "schema:url": "https://support.cosmolex.com/"
+        }
+      },
+      "schema:featureList": [
+        "Matter Management",
+        "Time Tracking",
+        "Billing and Invoicing",
+        "Trust Accounting",
+        "Client Engagement",
+        "Document Management",
+        "Legal Compliance",
+        "Multi-Office Support",
+        "Third-Party Integrations"
+      ],
+      "schema:applicationSubCategory": [
+        "Legal Billing Software",
+        "Trust Accounting Software",
+        "Law Practice Management"
+      ]
+    }
+  ]
+}
