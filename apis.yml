@@ -8,7 +8,7 @@ description: >
   subject to a per-user-license monthly call quota. CosmoLex serves solo
   practitioners and law firms up to 100 users and is designed to satisfy state
   bar trust accounting compliance requirements.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
