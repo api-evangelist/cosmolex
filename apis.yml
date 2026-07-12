@@ -58,6 +58,8 @@ apis:
         url: https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/finops/cosmolex-finops.yml
 
 common:
+  - type: DomainSecurity
+    url: security/cosmolex-domain-security.yml
   - type: Plans
     url: https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/plans/cosmolex-plans-pricing.yml
   - type: RateLimits
