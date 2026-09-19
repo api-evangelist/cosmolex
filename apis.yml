@@ -60,6 +60,13 @@ apis:
     humanURL: https://www.cosmolex.com/integrations/
     baseURL: https://law.cosmolex.com
     tags:
+      - Matter
+      - Time Entries
+      - Billing
+      - Trust Accounting
+      - Documents
+      - Legal
+    tags_raw:
       - Matters
       - Time Entries
       - Billing
