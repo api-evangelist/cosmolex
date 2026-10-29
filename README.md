@@ -1,4 +1,4 @@
-# CosmoLex (cosmolex)
+# CosmoLex
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,69 +66,110 @@
 
 CosmoLex is a cloud-based legal practice management platform that combines matter management, time tracking, billing, trust accounting, and client engagement in a single system. It provides a web services API for integrating matters, time entries, billing, trust accounting, and compliance workflows, subject to a per-user-license monthly call quota. CosmoLex serves solo practitioners and law firms up to 100 users and is designed to satisfy state bar trust accounting compliance requirements.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/apis.yml)
+**Areas:** Legal · Law Practice Management · Matter Management · Billing · Trust Accounting · Time Tracking · Legal Compliance · Legal Software
 
-## Scope
+## CosmoLex on APIs.io
 
-- **Type:** Index
+Everything profiled for CosmoLex is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cosmolex/](https://apis.io/providers/cosmolex/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- Legal
-- Law Practice Management
-- Matter Management
-- Billing
-- Trust Accounting
-- Time Tracking
-- Legal Compliance
-- Legal Software
+- [CosmoLex API](https://apis.io/apis/cosmolex/cosmolex-api/) — Web services API for CosmoLex legal practice management. Enables programmatic access to matters, time entries, billing, trust accounting, documents, and…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-06-13
-- **Modified:** 2026-06-13
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### JSON-LD (1)
 
-### CosmoLex API
+Linked-data contexts for the provider's vocabulary.
 
-Web services API for CosmoLex legal practice management. Enables programmatic access to matters, time entries, billing, trust accounting, documents, and client data. Access is subject to a maximum of 1,000 API calls per user license per month as defined in the Subscription Agreement. No public developer portal is published; integrators should contact CosmoLex for partner API access.
+- [Cosmolex Context](https://apis.io/jsonld/cosmolex/cosmolex-context/)
 
-- **Human URL:** [https://www.cosmolex.com/integrations/](https://www.cosmolex.com/integrations/)
-- **Base URL:** `https://law.cosmolex.com`
+#### Security (1)
 
-#### Tags
+Authentication, trust centre, and vulnerability disclosure.
 
-- Matters
-- Time Entries
-- Billing
-- Trust Accounting
-- Documents
-- Legal
+- [Cosmolex Domain Security](https://apis.io/security/cosmolex/cosmolex-domain-security/)
 
-#### Properties
+#### Plans and pricing (1)
 
-- [Documentation](https://support.cosmolex.com/knowledge-base/app-integrations/)
-- [Integrations](https://www.cosmolex.com/integrations/)
-- [Subscription Agreement](https://www.cosmolex.com/subscription-agreement/)
-- [Plans](https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/plans/cosmolex-plans-pricing.yml)
-- [Rate Limits](https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/rate-limits/cosmolex-rate-limits.yml)
-- [Fin Ops](https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/finops/cosmolex-finops.yml)
+Published plans, tiers and prices.
 
-## Common Properties
+- [Cosmolex Plans Pricing](https://apis.io/plans/cosmolex/cosmolex-plans-pricing/)
 
-- [Plans](https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/plans/cosmolex-plans-pricing.yml)
-- [Rate Limits](https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/rate-limits/cosmolex-rate-limits.yml)
-- [Fin Ops](https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/finops/cosmolex-finops.yml)
+#### Rate limits (1)
+
+Published request limits.
+
+- [Cosmolex Rate Limits](https://apis.io/rate-limits/cosmolex/cosmolex-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Cosmolex Finops](https://apis.io/finops/cosmolex/cosmolex-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.cosmolex.com/)
 - [Pricing](https://www.cosmolex.com/pricing/)
-- [Blog](https://www.cosmolex.com/blog/)
 - [Support](https://support.cosmolex.com/)
-- [Login](https://law.cosmolex.com/login/)
-- [Terms of Service](https://www.cosmolex.com/subscription-agreement/)
-- [Privacy Policy](https://www.cosmolex.com/privacy-policy/)
+- [Blog](https://www.cosmolex.com/blog/)
+- [Terms of service](https://www.cosmolex.com/subscription-agreement/)
+- [Privacy policy](https://www.cosmolex.com/privacy-policy/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 24.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 14.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 46.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cosmolex/](https://apis.io/providers/cosmolex/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CosmoLex: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cosmolex/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
